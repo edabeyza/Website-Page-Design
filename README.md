@@ -21,10 +21,6 @@ Project aims to create a website page.
         |----images (folder)
 ```
 
-## Objective
-
-Build a Landing same as in the example images.
-
 ### Technologies and Tools
 
 - HTML 
