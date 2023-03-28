@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+
+/* header */
+header{
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.7rem;
+    /* border-bottom: 4px solid red; */
+}
+hr{
+    width: 100%;
+    border-style: solid;
+    color: cornflowerblue;
+    border-width: 4px;
+}
+header a{
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+header a:hover{
+    color: palevioletred;
+    border-bottom: 4px solid palevioletred;
+}
+header h2{
+    color: white;
+    font-size: 2rem;
+}
+header span{
+    color:rgba(103, 3, 103, 0.641);
+}
+/* main */
+.section-first img{
+    width: 100%;
+    height: 40vh;
+}
+.section-first{
+    position: relative;
+}
+.section-first img{
+    width: 100%;
+    height: 50vh;
+}
+.section-first h1{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.section-first article{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.section-second{
+    display: flex;
+    justify-content:space-between;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    padding: 2rem;
+    margin-top: -4px;
+    
+}
+
+.section-second h2{
+    color: white;
+}
+
+.section-second button{
+    height: 4vh;
+    background-color:rgba(124, 124, 124, 0.915);
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#email{
+    height: 4vh;
+    margin-left: 2rem;
+    padding: 0.5rem;
+}
+
+.section-third{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 1rem;
+    
+}
+
+/* footer */
+.footer-index{
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    text-align: center;
+    padding: 1.2rem;
+    color: white;
+    bottom: 0px;
+    /* position: fixed; */
+    width: 100%;  
+    
+}
+.footer-about{
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    text-align: center;
+    padding: 1.2rem;
+    color: white;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;  
+    
+}
+.footer-services{
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    text-align: center;
+    padding: 1.2rem;
+    color: white;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;  
+    
+}
+
+footer p{
+    margin-bottom: 0.5rem;
+    
+}
+
+/* about */
+.section-fourth{
+    display: flex;
+    margin: 2rem;
+    gap: 1rem;
+    
+    
+}
+
+.section-left{
+    background-color: rgba(255, 182, 193, 0.767);
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
+
+.section-right{
+    background-color: rgba(255, 182, 193, 0.767);
+    padding: 1rem;
+    color: white;
+    /* margin-left: 1rem; */
+    /* margin: auto; */
+}
+
+/* services */
+
+.section-fifth{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+}
+.section-fifth h3{
+    margin-bottom: 1rem;
+}
+.section-article-first, 
+.section-article-second, 
+.section-article-third{
+    background-color: gainsboro;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    width: 180%;
+    
+}
+
+.form-services{
+    
+    background-color: gainsboro;
+    padding: 1rem;
+    height: 45vh;
+}
+
+
+.form-services textarea{
+    resize: none;
+    width: 500px;
+    height: 150px;
+}
+
+.form-services input{
+    height: 25px;
+    width: 100%;
+    
+}
+.form-services button{
+    height: 4vh;
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+
+}
+
